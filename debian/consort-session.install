@@ -1,0 +1,4 @@
+consort.desktop /usr/share/xsessions/
+consort-session /usr/bin/
+consort.session /usr/share/gnome-session/sessions/
+
