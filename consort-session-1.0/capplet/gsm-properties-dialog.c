@@ -742,7 +742,7 @@ gsm_properties_dialog_init (GsmPropertiesDialog *dialog)
         gtk_window_set_resizable (GTK_WINDOW (dialog), TRUE);
         gtk_container_set_border_width (GTK_CONTAINER (dialog), 6);
         gtk_box_set_spacing (GTK_BOX (content_area), 2);
-        gtk_window_set_icon_name (GTK_WINDOW (dialog), "session-properties");
+        gtk_window_set_icon_name (GTK_WINDOW (dialog), "consort-session-properties");
         gtk_window_set_title (GTK_WINDOW (dialog), _("Startup Applications Preferences"));
 }
 
