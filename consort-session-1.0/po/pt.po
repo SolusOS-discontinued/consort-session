@@ -701,10 +701,10 @@ msgstr "Aplicação invocada com conflito de opções"
 
 #~ msgid ""
 #~ "The Window manager that consort-session will start. Valid values are "
-#~ "\"metacity\" and \"compiz\"."
+#~ "\"consortium\" and \"compiz\"."
 #~ msgstr ""
 #~ "O gestor de janelas que o consort-session irá iniciar. Valores válidos são "
-#~ "\"metacity\" e \"compiz\"."
+#~ "\"consortium\" e \"compiz\"."
 
 #~ msgid "Window Manager to start"
 #~ msgstr "Gestor de Janelas a iniciar"

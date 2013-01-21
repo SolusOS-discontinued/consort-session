@@ -634,7 +634,7 @@ Note to distributors:
    and is now living in .desktop-like files. The format of those files might
    change in the future.
  - two predefined sessions are shipped: GNOME (default), that will start GNOME
-   Shell, and Classic GNOME, that will start gnome-panel, metacity, etc. like in
+   Shell, and Classic GNOME, that will start gnome-panel, consortium, etc. like in
    GNOME 2.
  - a small utility, consort-session-is-accelerated, is used to determine if GNOME
    Shell can be used. If this is not the case, Classic GNOME will be used.
@@ -1353,7 +1353,7 @@ Translations:
 Version 2.23.91
 ===============
 
-- Fixed #548710, metacity is not respawned when dies (William Jon McCann)
+- Fixed #548710, consortium is not respawned when dies (William Jon McCann)
 - Fixed #548909, compilation fix (Jens Granseuer)
 - Fixed #548980, make non-fatal errors are treated as such (Frederic Crozat)
 - Fixed #548982, do not set a11y gtk modules if at registry could not be
@@ -1418,7 +1418,7 @@ Version 2.23.90
 - Fixed #547619, consort-session 2.23.6 doesn't compile on Solaris (Erwann Chenede -)
 - Fixed #547769, part of consort-wm potentially can break (Ghee Teo)
 - Fixed #548129, consort-session-properties doesn't create ~/.config/autostart (William Jon McCann)
-- Fixed #548259, g-s thinks that metacity is 'not responding' if it was --replace'd (William Jon McCann)
+- Fixed #548259, g-s thinks that consortium is 'not responding' if it was --replace'd (William Jon McCann)
 
 Translations:
 - Updated ar: Khaled Hosny
@@ -2024,7 +2024,7 @@ Version 2.17.90
 Session Manager
 
 	* Kill the clients in reverse order of priority, which makes logging
-	  out a better experience (metacity is killed last) (Tom Tromey)
+	  out a better experience (consortium is killed last) (Tom Tromey)
 	* Remove useless code (Claudio Saavedra)
 
 Session Properties Dialog
@@ -3270,7 +3270,7 @@ Version 2.1.1
 Version 2.1.0
 =============
 
-	* Use metacity for the window manager by default (Jacob)
+	* Use consortium for the window manager by default (Jacob)
 	* Multiscreen support for logout iris and dialog (Mark)
 	* Use "Order" instead of "Priority" in the capplet (Mark)
 
@@ -3577,7 +3577,7 @@ Version 1.5.13
 	* Port GsmSession, GsmProtocol and GsmClient to GObject (Mark)
 	* Use glib-mkenums to build enum GTypes for signals (Mark)
 	* Built sources build fix (Jacob)
-	* Copy pango XGrabServer workaround from metacity (Mark, Owen)
+	* Copy pango XGrabServer workaround from consortium (Mark, Owen)
 	* Fix logout dialog crash (Mark)
 
 ==============

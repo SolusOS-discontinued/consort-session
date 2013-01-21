@@ -6931,7 +6931,7 @@ Date:   Mon Feb 1 19:41:57 2010 +0100
     accepted. This can lead to some issues, though. An example is:
     https://bugzilla.gnome.org/show_bug.cgi?id=598211#c19. Quoting:
     
-     "What is happening is that a new client (probably metacity in your
+     "What is happening is that a new client (probably consortium in your
      case) is opening an ICE connection in the GSM_MANAGER_PHASE_END_SESSION
      phase, which causes a new GsmXSMPClient to be added to the client
      store. The GSM_MANAGER_PHASE_EXIT phase then begins before the client

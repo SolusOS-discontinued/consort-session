@@ -16,7 +16,7 @@ if [ -z "$WINDOW_MANAGER" ] ; then
   # Create a list of window manager we can handle, trying to only use the
   # compositing ones when it makes sense
 
-  KNOWN_WM="metacity mutter sawfish"
+  KNOWN_WM="consortium mutter sawfish"
 
   for wm in $KNOWN_WM; do
     if [ -x /usr/bin/"$wm" ]; then

@@ -159,7 +159,7 @@ consort-session (3.0.0-1) experimental; urgency=low
   * Pull back consort-wm and consort-wm.desktop, it’s the easiest way to 
     configure the window manager for the fallback session.
   * 01_consort-wm.patch: new patch. Make consort-wm the default instead of 
-    metacity.
+    consortium.
   * 02_fallback_desktop.patch: new patch. Build a gnome-fallback.desktop 
     for /usr/share/xsessions.
   * 13_no_fallback_notification.patch: refreshed accordingly.
@@ -315,7 +315,7 @@ consort-session (2.28.0-5) unstable; urgency=low
   * README.Debian: fix documentation of window manager startup according 
     to the previous upload.
   * Add a gnome3-session binary and a corresponding package, that starts 
-    gnome-shell instead of gnome-panel + metacity.
+    gnome-shell instead of gnome-panel + consortium.
   * 11_saved_session_name.patch: new patch. Allow to change the 
     directory where the session is saved with the command line. The
     corresponding option is used by gnome3-session.
@@ -328,7 +328,7 @@ consort-session (2.28.0-5) unstable; urgency=low
 consort-session (2.28.0-4) unstable; urgency=low
 
   * 01_consort-wm.patch: OK, you win. Kill all the 3D crap, always use 
-    metacity by default. Closes: #553417.
+    consortium by default. Closes: #553417.
   * Drop mesa-utils dependency accordingly.
 
  -- Josselin Mouette <joss@debian.org>  Mon, 16 Nov 2009 15:21:05 +0100
@@ -627,7 +627,7 @@ consort-session (2.20.2-1) unstable; urgency=low
   * consort-wm:
     + Fix indentation.
     + Support for compiz. Closes: #448560, thanks Andreas Klöckner.
-    + Also use compiz if metacity is unavailable.
+    + Also use compiz if consortium is unavailable.
   * 02_gsd-spawn.patch: spawn gnome-settings-daemon using g_spawn
     instead of DBus. Closes: #339785.
   * Require libgnome-settings-daemon-dev 1:2.20.1-2 to obtain the g-s-d
@@ -1232,8 +1232,8 @@ consort-session (2.6.0-2) experimental; urgency=low
 
   * Move gnome-sesssion.install to consort-session.install.
   * Forward-port changes from 2.4.2-4:
-    + Use metacity by default:
-      - consort-wm: use metacity or sawfish when it is available
+    + Use consortium by default:
+      - consort-wm: use consortium or sawfish when it is available
       - default.session: let consort-wm discover the window manager
     + docs: removed, cdbs takes care of these.
     + postinst,prerm: remove gconf stuff, dh_gconf does it for us.
@@ -1304,7 +1304,7 @@ consort-session (2.4.1-3) unstable; urgency=low
 
 consort-session (2.4.1-2) unstable; urgency=low
 
-  * Build with --with-window-manager=metacity (CLoses: #216769)
+  * Build with --with-window-manager=consortium (CLoses: #216769)
   * Update desktop migration from .gnome-desktop to Desktop
   * Update Build-dependencies to GNOME 2.4 packages
 
@@ -1448,7 +1448,7 @@ consort-session (2.0.8-1.1upgradetest) experimental; urgency=low
 consort-session (2.0.8-1) experimental; urgency=low
 
   * New upstream release.
-  * Add metacity in consort-wm
+  * Add consortium in consort-wm
 
  -- Christian Marillat <marillat@debian.org>  Mon, 14 Oct 2002 16:09:35 +0200
 

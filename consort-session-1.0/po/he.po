@@ -653,10 +653,10 @@ msgstr "התכנית נקראה עם אפשרויות סותרות"
 
 #~ msgid ""
 #~ "The Window manager that consort-session will start. Valid values are "
-#~ "\"metacity\" and \"compiz\"."
+#~ "\"consortium\" and \"compiz\"."
 #~ msgstr ""
 #~ "The Window manager that consort-session will start. Valid values are "
-#~ "\"metacity\" and \"compiz\"."
+#~ "\"consortium\" and \"compiz\"."
 
 #~ msgid "Window Manager to start"
 #~ msgstr "Window Manager to start"

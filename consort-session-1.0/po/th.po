@@ -648,9 +648,9 @@ msgstr "โปรแกรมถูกเรียกด้วยตัวเล
 
 #~ msgid ""
 #~ "The Window manager that consort-session will start. Valid values are "
-#~ "\"metacity\" and \"compiz\"."
+#~ "\"consortium\" and \"compiz\"."
 #~ msgstr ""
-#~ "โปรแกรมจัดการหน้าต่างที่ consort-session จะเรียกใช้ ค่าที่ใช้ได้คือ \"metacity\" และ "
+#~ "โปรแกรมจัดการหน้าต่างที่ consort-session จะเรียกใช้ ค่าที่ใช้ได้คือ \"consortium\" และ "
 #~ "\"compiz\""
 
 #~ msgid "Window Manager to start"

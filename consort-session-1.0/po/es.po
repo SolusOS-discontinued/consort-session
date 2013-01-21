@@ -726,10 +726,10 @@ msgstr "Se llamó al programa con opciones en conflicto"
 
 #~ msgid ""
 #~ "The Window manager that consort-session will start. Valid values are "
-#~ "\"metacity\" and \"compiz\"."
+#~ "\"consortium\" and \"compiz\"."
 #~ msgstr ""
 #~ "El Gestor de ventanas que consort-session iniciará. Los valores válidos son "
-#~ "«metacity» y «compiz»."
+#~ "«consortium» y «compiz»."
 
 #~ msgid "Window Manager to start"
 #~ msgstr "Gestor de ventanas que iniciar"

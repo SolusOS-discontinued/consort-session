@@ -3,7 +3,7 @@
 # Thomas Thurman <tthurman@gnome.org>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: metacity\n"
+"Project-Id-Version: consortium\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=consort-session&component=general\n"
 "POT-Creation-Date: 2010-05-12 07:26+0000\n"
 "PO-Revision-Date: 2010-05-12 18:36 -0400\n"

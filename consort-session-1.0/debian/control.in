@@ -68,7 +68,7 @@ Architecture: all
 Depends: ${misc:Depends},
          gnome-settings-daemon (>= 3.0),
          gnome-panel (>= 3.0),
-         metacity (>= 2.30),
+         consortium (>= 1.0),
          policykit-1-gnome,
          consort-session-bin (>= ${binary:Version}),
          consort-session-bin (<< ${gnome:NextVersion}),
