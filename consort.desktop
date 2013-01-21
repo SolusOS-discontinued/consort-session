@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Consort Desktop
+Comment=This session logs you into Consort Desktop
+Exec=consort-session
+TryExec=consort-session
+Icon=
+Type=Application
