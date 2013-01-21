@@ -1,0 +1,2 @@
+#! /bin/sh
+exec consort-session --session gnome-fallback "$@"

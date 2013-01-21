@@ -1,0 +1,5 @@
+[Consort Session]
+_Name=GNOME fallback
+RequiredComponents=gnome-panel;gnome-settings-daemon;
+RequiredProviders=windowmanager
+DefaultProvider-windowmanager=consort-wm

@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=GNOME
+_Comment=This session logs you into GNOME
+Exec=consort-session
+TryExec=consort-session
+Icon=
+Type=Application

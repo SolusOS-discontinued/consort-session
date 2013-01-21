@@ -1,0 +1,536 @@
+# Serbian translation of consort-session
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003 - 2009
+# This file is distributed under the same license as the consort-session package.
+# Maintainer: Danilo Šegan <danilo@gnome.org>
+# Reviewed on 2005-07-10 by Danilo Šegan <danilo@gnome.org>
+# Translated on 2006-01-30 by: Slobodan D. Sredojević <slobo@akrep.be>
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011, 2012.
+# Miloš Popović <gpopac@gmail.com>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: consort-session\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"session&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-03-23 09:50+0000\n"
+"PO-Revision-Date: 2012-03-27 08:53+0200\n"
+"Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <gnom@prevod.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Project-Style: gnome\n"
+
+#: ../capplet/gsm-app-dialog.c:120
+msgid "Select Command"
+msgstr "Izaberi naredbu"
+
+#: ../capplet/gsm-app-dialog.c:193
+msgid "Add Startup Program"
+msgstr "Dodaj početni program"
+
+#: ../capplet/gsm-app-dialog.c:197
+msgid "Edit Startup Program"
+msgstr "Uredi početni program"
+
+#: ../capplet/gsm-app-dialog.c:484
+msgid "The startup command cannot be empty"
+msgstr "Naredba početnog programa se mora uneti"
+
+#: ../capplet/gsm-app-dialog.c:490
+msgid "The startup command is not valid"
+msgstr "Naredba početnog programa nije ispravna"
+
+#: ../capplet/gsm-properties-dialog.c:518
+msgid "Enabled"
+msgstr "Uključen"
+
+#: ../capplet/gsm-properties-dialog.c:530
+msgid "Icon"
+msgstr "Ikonica"
+
+#: ../capplet/gsm-properties-dialog.c:542
+msgid "Program"
+msgstr "Program"
+
+#: ../capplet/gsm-properties-dialog.c:746
+msgid "Startup Applications Preferences"
+msgstr "Postavke početnih programa"
+
+#: ../capplet/gsp-app.c:274
+msgid "No name"
+msgstr "Bez imena"
+
+#: ../capplet/gsp-app.c:280
+msgid "No description"
+msgstr "Bez opisa"
+
+#: ../capplet/main.c:35 ../consort-session/main.c:281
+msgid "Version of this application"
+msgstr "Prikazuje izdanje ovog programa"
+
+#: ../capplet/main.c:61
+msgid "Could not display help document"
+msgstr "Ne mogu da prikažem dokument pomoći"
+
+#: ../data/gnome-fallback.session.desktop.in.in.h:1
+msgid "GNOME fallback"
+msgstr "Prebacivanje Gnoma"
+
+#: ../data/gnome.session.desktop.in.in.h:1 ../data/gnome.desktop.in.h:1
+msgid "GNOME"
+msgstr "Gnom"
+
+#: ../data/gnome.desktop.in.h:2
+msgid "This session logs you into GNOME"
+msgstr "Ova sesija vas prijavljuje u Gnom"
+
+#: ../data/gsm-inhibit-dialog.ui.h:1
+msgid "<b>Some programs are still running:</b>"
+msgstr "<b>Neki programi su još uvek pokrenuti:</b>"
+
+#: ../data/gsm-inhibit-dialog.ui.h:2 ../consort-session/gsm-inhibit-dialog.c:640
+msgid ""
+"Waiting for the program to finish.  Interrupting the program may cause you "
+"to lose work."
+msgstr ""
+"Čekam na program da završi sa radom.  Prekid programa može dovesti do "
+"gubitka vašeg rada."
+
+#: ../data/consort-session-properties.desktop.in.in.h:1
+msgid "Startup Applications"
+msgstr "Početni programi"
+
+#: ../data/consort-session-properties.desktop.in.in.h:2
+msgid "Choose what applications to start when you log in"
+msgstr "Izaberite koji će se programi pokrenuti kada se prijavite na računar"
+
+#: ../data/session-properties.ui.h:1
+msgid "Additional startup _programs:"
+msgstr "Dodatni početni _programi:"
+
+#: ../data/session-properties.ui.h:2
+msgid "Startup Programs"
+msgstr "Početni programi"
+
+#: ../data/session-properties.ui.h:3
+msgid "_Automatically remember running applications when logging out"
+msgstr "_Sam zapamti pokrenute programe prilikom odjavljivanja"
+
+#: ../data/session-properties.ui.h:4
+msgid "_Remember Currently Running Application"
+msgstr "_Zapamti trenutno pokrenute programe"
+
+#: ../data/session-properties.ui.h:5
+msgid "Options"
+msgstr "Mogućnosti"
+
+#: ../data/session-properties.ui.h:6
+msgid "Browse…"
+msgstr "Razgledaj…"
+
+#: ../data/session-properties.ui.h:7
+msgid "Comm_ent:"
+msgstr "_Komentar:"
+
+#: ../data/session-properties.ui.h:8
+msgid "Co_mmand:"
+msgstr "_Naredba:"
+
+#: ../data/session-properties.ui.h:9
+msgid "_Name:"
+msgstr "Na_ziv:"
+
+#: ../egg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Ovo nije ispravna „.desktop“ datoteka"
+
+#. translators: 'Version' is from a desktop file, and
+#. * should not be translated. '%s' would probably be a
+#. * version number.
+#: ../egg/eggdesktopfile.c:191
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Nije prepoznato izdanje desktop datoteke „%s“"
+
+#: ../egg/eggdesktopfile.c:974
+#, c-format
+msgid "Starting %s"
+msgstr "Pokrećem „%s“"
+
+#: ../egg/eggdesktopfile.c:1116
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Program ne prihvata dokumente iz komandne linije"
+
+#: ../egg/eggdesktopfile.c:1184
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Nije prepoznata mogućnost za pokretanje: %d"
+
+#. translators: The 'Type=Link' string is found in a
+#. * desktop file, and should not be translated.
+#: ../egg/eggdesktopfile.c:1391
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+"Ne mogu da prosledim adresu dokumenta u „Type=Link“ unos desktop datoteke"
+
+#: ../egg/eggdesktopfile.c:1412
+#, c-format
+msgid "Not a launchable item"
+msgstr "Stavka se ne može pokretati"
+
+#: ../egg/eggsmclient.c:226
+msgid "Disable connection to session manager"
+msgstr "Onemogući povezivanje sa upravnikom sesije"
+
+#: ../egg/eggsmclient.c:229
+msgid "Specify file containing saved configuration"
+msgstr "Odredi datoteku koja sadrži sačuvane postavke"
+
+#: ../egg/eggsmclient.c:229
+msgid "FILE"
+msgstr "DATOTEKA"
+
+#: ../egg/eggsmclient.c:232
+msgid "Specify session management ID"
+msgstr "Odredi IB upravnika sesije"
+
+#: ../egg/eggsmclient.c:232
+msgid "ID"
+msgstr "IB"
+
+#: ../egg/eggsmclient.c:253
+msgid "Session management options:"
+msgstr "Opcije upravnika sesijama:"
+
+#: ../egg/eggsmclient.c:254
+msgid "Show session management options"
+msgstr "Prikaži opcije upravnika sesijama"
+
+#: ../consort-session/gsm-inhibit-dialog.c:253
+#, c-format
+msgid "Icon '%s' not found"
+msgstr "Nije nađena ikonica „%s“"
+
+#: ../consort-session/gsm-inhibit-dialog.c:588
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: ../consort-session/gsm-inhibit-dialog.c:639
+msgid "A program is still running:"
+msgstr "Program je još uvek pokrenut:"
+
+#: ../consort-session/gsm-inhibit-dialog.c:643
+msgid "Some programs are still running:"
+msgstr "Neki programi su još uvek pokrenuti:"
+
+#: ../consort-session/gsm-inhibit-dialog.c:644
+msgid ""
+"Waiting for programs to finish.  Interrupting these programs may cause you "
+"to lose work."
+msgstr ""
+"Čekam da programi završe sa radom.  Izlazak iz ovih programa može dovesti do "
+"gubitka vaših radova."
+
+# Kako je potrebno da bude što kraće usudih se da promenim konstrukciju
+# „Promeni korisnika i pored toga“ u „Ipak promeni korisnika“ ~ Miloš
+#: ../consort-session/gsm-inhibit-dialog.c:874
+msgid "Switch User Anyway"
+msgstr "Ipak promeni korisnika"
+
+#: ../consort-session/gsm-inhibit-dialog.c:877
+msgid "Log Out Anyway"
+msgstr "Ipak se odjavi"
+
+#: ../consort-session/gsm-inhibit-dialog.c:880
+msgid "Suspend Anyway"
+msgstr "Ipak obustavi rad"
+
+#: ../consort-session/gsm-inhibit-dialog.c:883
+msgid "Hibernate Anyway"
+msgstr "Ipak zamrzni računar"
+
+#: ../consort-session/gsm-inhibit-dialog.c:886
+msgid "Shut Down Anyway"
+msgstr "Ipak isključi računar"
+
+#: ../consort-session/gsm-inhibit-dialog.c:889
+msgid "Restart Anyway"
+msgstr "Ipak ponovo pokreni"
+
+#: ../consort-session/gsm-inhibit-dialog.c:897
+msgid "Lock Screen"
+msgstr "Zaključaj ekran"
+
+#: ../consort-session/gsm-inhibit-dialog.c:900
+msgid "Cancel"
+msgstr "Otkaži"
+
+#. This string is shared with gsm-fail-whale-dialog.c
+#: ../consort-session/gsm-logout-dialog.c:271
+#, c-format
+msgid "You will be automatically logged out in %d second."
+msgid_plural "You will be automatically logged out in %d seconds."
+msgstr[0] "Bićete odjavljeni u roku od %d sekunde."
+msgstr[1] "Bićete odjavljeni u roku od %d sekunde."
+msgstr[2] "Bićete odjavljeni u roku od %d sekundi."
+msgstr[3] "Bićete odjavljeni u roku od jedne sekunde."
+
+#: ../consort-session/gsm-logout-dialog.c:279
+#, c-format
+msgid "This system will be automatically shut down in %d second."
+msgid_plural "This system will be automatically shut down in %d seconds."
+msgstr[0] "Računar će se sam isključiti za %d sekundu."
+msgstr[1] "Računar će se sam isključiti za %d sekunde."
+msgstr[2] "Računar će se sam isključiti za %d sekundi."
+msgstr[3] "Računar će se sam isključiti za jednu sekundu."
+
+#: ../consort-session/gsm-logout-dialog.c:303
+#, c-format
+msgid "You are currently logged in as \"%s\"."
+msgstr "Trenutno ste prijavljeni kao „%s“."
+
+#: ../consort-session/gsm-logout-dialog.c:369
+msgid "Log out of this system now?"
+msgstr "Da li da se odjavim sa sistema?"
+
+#: ../consort-session/gsm-logout-dialog.c:375
+msgid "_Switch User"
+msgstr "Promeni _korisnika"
+
+#: ../consort-session/gsm-logout-dialog.c:384
+#: ../consort-session/gsm-fail-whale-dialog.c:337
+#: ../consort-session/gsm-util.c:389
+msgid "_Log Out"
+msgstr "_Odjavi se"
+
+#: ../consort-session/gsm-logout-dialog.c:390
+msgid "Shut down this system now?"
+msgstr "Da li da isključim računar?"
+
+#: ../consort-session/gsm-logout-dialog.c:396
+msgid "S_uspend"
+msgstr "_Obustavi"
+
+#: ../consort-session/gsm-logout-dialog.c:402
+msgid "_Hibernate"
+msgstr "_Zamrzni"
+
+#: ../consort-session/gsm-logout-dialog.c:408
+msgid "_Restart"
+msgstr "_Ponovo pokreni"
+
+#: ../consort-session/gsm-logout-dialog.c:418
+msgid "_Shut Down"
+msgstr "_Isključi"
+
+#: ../consort-session/gsm-fail-whale-dialog.c:311
+msgid "Oh no!  Something has gone wrong."
+msgstr "O, ne!  Nešto je pošlo naopako!"
+
+#: ../consort-session/gsm-fail-whale-dialog.c:318
+msgid ""
+"A problem has occurred and the system can't recover. Please contact a system "
+"administrator"
+msgstr ""
+"Došlo je do problema i sistem ne može da se oporavi. Molim obratite se "
+"administratoru sistema."
+
+#: ../consort-session/gsm-fail-whale-dialog.c:320
+#| msgid ""
+#| "A problem has occurred and the system can't recover. Please contact a "
+#| "system administrator"
+msgid ""
+"A problem has occurred and the system can't recover. All extensions have "
+"been disabled as a precaution."
+msgstr ""
+"Došlo je do problema i sistem ne može da se oporavi. Sva proširenja su "
+"isključena zarad predostrožnosti."
+
+#: ../consort-session/gsm-fail-whale-dialog.c:322
+msgid ""
+"A problem has occurred and the system can't recover.\n"
+"Please log out and try again."
+msgstr ""
+"Došlo je do problema i sistem ne može da se oporavi.\n"
+"Molim odjavite se i pokušajte opet."
+
+#: ../consort-session/gsm-process-helper.c:123
+#, c-format
+msgid "Exited with code %d"
+msgstr "Kod pri napuštanju programa je %d"
+
+#: ../consort-session/gsm-process-helper.c:128
+#, c-format
+msgid "Killed by signal %d"
+msgstr "Ubijena signalom %d"
+
+#: ../consort-session/gsm-process-helper.c:133
+#, c-format
+msgid "Stopped by signal %d"
+msgstr "Obustavljena signalom %d"
+
+#: ../consort-session/gsm-manager.c:1396
+msgid "GNOME 3 Failed to Load"
+msgstr "Gnom 3 nije uspeo da se učita"
+
+#: ../consort-session/gsm-manager.c:1397
+msgid ""
+"Unfortunately GNOME 3 failed to start properly and started in the "
+"<i>fallback mode</i>.\n"
+"\n"
+"This most likely means your system (graphics hardware or driver) is not "
+"capable of delivering the full GNOME 3 experience."
+msgstr ""
+"Nažalost Gnom 3 nije uspeo da pravilno započne sa radom i zato je započeo u "
+"<i>režimu prebacivanja</i>.\n"
+"\n"
+"To najverovatnije znači da vaš sistem (grafička kartica ili njen upravljački "
+"program) nije u stanju da pokrene potpuno Gnom 3 okruženje."
+
+#: ../consort-session/gsm-manager.c:1399
+msgid "Learn more about GNOME 3"
+msgstr "Saznajte više o Gnomu 3"
+
+#: ../consort-session/gsm-manager.c:1496 ../consort-session/gsm-manager.c:2269
+msgid "Not responding"
+msgstr "Ne daje odziv"
+
+#. It'd be really surprising to reach this code: if we're here,
+#. * then the XSMP client already has set several XSMP
+#. * properties. But it could still be that SmProgram is not set.
+#.
+#: ../consort-session/gsm-xsmp-client.c:559
+msgid "Remembered Application"
+msgstr "Zapamćeni program"
+
+#: ../consort-session/gsm-xsmp-client.c:1197
+msgid "This program is blocking logout."
+msgstr "Ovaj program onemogućava odjavu."
+
+#: ../consort-session/gsm-xsmp-server.c:325
+msgid ""
+"Refusing new client connection because the session is currently being shut "
+"down\n"
+msgstr "Odbacujem vezu sa novim klijentom jer je u toku gašenje sesije\n"
+
+#: ../consort-session/gsm-xsmp-server.c:587
+#, c-format
+msgid "Could not create ICE listening socket: %s"
+msgstr "Ne mogu da napravim priključak ICE osluškivanja: %s"
+
+#. Oh well, no X for you!
+#: ../consort-session/gsm-util.c:373
+#, c-format
+msgid "Unable to start login session (and unable to connect to the X server)"
+msgstr ""
+"Ne mogu da pokrenem sesiju prijavljivanja (i ne mogu da se povežem na X server)"
+
+#: ../consort-session/main.c:277
+msgid "Override standard autostart directories"
+msgstr "Zaobilazi uobičajene direktorijume samopokretanja"
+
+#: ../consort-session/main.c:277
+msgid "AUTOSTART_DIR"
+msgstr "DIREKTORIJUM SAMOPOKRETANJA"
+
+#: ../consort-session/main.c:278
+msgid "Session to use"
+msgstr "Sesije koje će biti korišćene"
+
+#: ../consort-session/main.c:278
+msgid "SESSION_NAME"
+msgstr "NAZIV_SESIJE"
+
+#: ../consort-session/main.c:279
+msgid "Enable debugging code"
+msgstr "Omogućava kod za uklanjanje grešaka"
+
+#: ../consort-session/main.c:280
+msgid "Do not load user-specified applications"
+msgstr "Ne učitava programe koje je zadao korisnik"
+
+#. Translators: the 'fail whale' is the black dialog we show when something goes seriously wrong
+#: ../consort-session/main.c:283
+msgid "Show the fail whale dialog for testing"
+msgstr "Prikazuje prozorče neuspeha za isprobavanje"
+
+#: ../consort-session/main.c:303
+msgid " - the GNOME session manager"
+msgstr " — upravnik Gnomovom sesijom"
+
+#: ../tools/consort-session-quit.c:52
+msgid "Log out"
+msgstr "Odjavi se"
+
+#: ../tools/consort-session-quit.c:53
+msgid "Power off"
+msgstr "Ugasi"
+
+#: ../tools/consort-session-quit.c:54
+msgid "Ignoring any existing inhibitors"
+msgstr "Zanemarujem postojeće ometače"
+
+#: ../tools/consort-session-quit.c:55
+msgid "Don't prompt for user confirmation"
+msgstr "Ne traži potvrdu od korisnika"
+
+#: ../tools/consort-session-quit.c:89 ../tools/consort-session-quit.c:99
+msgid "Could not connect to the session manager"
+msgstr "Ne mogu da se povežem sa upravnikom sesije"
+
+#: ../tools/consort-session-quit.c:199
+msgid "Program called with conflicting options"
+msgstr "Program je pozvan sa nesaglasnim mogućnostima"
+
+#~ msgid ""
+#~ "A problem has occurred and the system can't recover. Some of the "
+#~ "extensions below may have caused this.\n"
+#~ "Please try disabling some of these, and then log out and try again."
+#~ msgstr ""
+#~ "Došlo je do problema i sistem ne može da se oporavi. Možda je razlog tome "
+#~ "neko od dole navedenih proširenja.\n"
+#~ "Molim probajte da isključite neko od njih, a zatim se odjavite i pokušajte "
+#~ "opet."
+
+#~ msgid ""
+#~ "There is a problem with the configuration server.\n"
+#~ "(%s exited with status %d)"
+#~ msgstr ""
+#~ "Postoji problem sa serverom za postavke.\n"
+#~ "(%s izašao sa ispisom %d)"
+
+#~ msgid "Try _Recovery"
+#~ msgstr "Po_kušaj oporavak"
+
+#~ msgid "A system error has occurred: %s"
+#~ msgstr "Došlo je do greške na sistemu: %s"
+
+#~ msgid "A fatal system error has occurred: %s"
+#~ msgstr "Došlo je do kobne greške na sistemu: %s"
+
+#~ msgid "Component '%s': %s"
+#~ msgstr "Komponenta „%s“: %s"
+
+#~ msgid "Killed by signal"
+#~ msgstr "Ubijena signalom"
+
+#~ msgid "Timed out"
+#~ msgstr "Proteklo vreme"
+
+#~ msgid "Default session"
+#~ msgstr "Podrazumevana sesija"
+
+#~ msgid "File Manager"
+#~ msgstr "Upravnik datotekama"
+
+#~ msgid ""
+#~ "If enabled, consort-session will prompt the user before ending a session."
+#~ msgstr ""
+#~ "Ukoliko je uključeno, consort-session će pitati korisnika pre okončanja "
+#~ "sesije."

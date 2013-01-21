@@ -1,0 +1,5 @@
+[Consort Session]
+_Name=GNOME
+RequiredComponents=gnome-shell;gnome-settings-daemon;
+IsRunnableHelper=@LIBEXECDIR@/consort-session-check-accelerated
+FallbackSession=gnome-fallback
