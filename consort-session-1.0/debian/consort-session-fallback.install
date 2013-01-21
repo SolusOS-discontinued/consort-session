@@ -1,6 +1,0 @@
-debian/scripts/consort-session-fallback /usr/bin
-debian/scripts/consort-wm /usr/bin
-debian/consort-wm.desktop /usr/share/applications
-usr/share/xsessions/gnome-fallback.desktop
-usr/share/consort-session/sessions/gnome-fallback.session
-

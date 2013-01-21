@@ -1,7 +1,0 @@
-[Desktop Entry]
-_Name=GNOME Classic
-_Comment=This session logs you into GNOME
-Exec=consort-session-fallback
-TryExec=consort-session
-Icon=
-Type=Application

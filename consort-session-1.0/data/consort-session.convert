@@ -1,3 +1,0 @@
-[org.consort.SessionManager]
-auto-save-session = /apps/consort-session/options/auto_save_session
-logout-prompt = /apps/consort-session/options/logout_prompt
