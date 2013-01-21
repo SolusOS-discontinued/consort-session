@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+
+  <schema path="/org/consort/desktop/" id="org.consort.desktop" gettext-domain="@GETTEXT_PACKAGE@">
+    <key type="b" name="classic-mode">
+      <default>true</default>
+      <summary>Classic Mode</summary>
+      <description>Determines whether the Consort Desktop runs in Classic Mode.</description>
+    </key>
+  </schema>
+
+</schemalist>
