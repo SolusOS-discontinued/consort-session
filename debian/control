@@ -9,6 +9,7 @@ Homepage: http://consort.solusos.com/
 Package: consort-session
 Architecture: all
 Depends: gnome-session-bin, gnome-session-common, consortium, athena, consort-panel
+Provides: x-session-manager
 Description: Consort Desktop Session
  This package contains the required components for the Consort Desktop
  session, using Consort Panel and the Consortium Window Manager. It
