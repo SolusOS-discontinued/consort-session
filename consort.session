@@ -1,5 +1,5 @@
 [GNOME Session]
 Name=Consort Desktop
-RequiredComponents=gnome-panel;gnome-settings-daemon;
+RequiredComponents=consort-panel;gnome-settings-daemon;
 RequiredProviders=windowmanager
 DefaultProvider-windowmanager=consortium
