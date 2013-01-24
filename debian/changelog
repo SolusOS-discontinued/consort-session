@@ -1,0 +1,11 @@
+consort-session (1.0.1) two; urgency=low
+
+  * Add x-session-manager stuff
+
+ -- Ikey Doherty <ikey@solusos.com>  Mon, 21 Jan 2013 18:55:55 +0000
+
+consort-session (1.0) two; urgency=low
+
+  * Initial packaging of consort-session
+
+ -- Ikey Doherty <ikey@solusos.com>  Mon, 21 Jan 2013 11:39:25 +0000
